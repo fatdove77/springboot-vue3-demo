@@ -13,6 +13,7 @@ app.use(store).use(router)
 
 app.use(ElementPlus, {
     locale: zhCn,//使用中文语言
+    size:'small',
 })
 
 // 全局注册element-plus icon图标组件
