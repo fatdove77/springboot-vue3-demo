@@ -1,10 +1,10 @@
 server:
-  port: 80
+  port: 9090
 
 spring:
   datasource:
     druid:
-      url: jdbc:mysql://localhost:3306/springboot-vue?useUnicode=true&useJDBCCompliantTimezoneShift=true&serverTimezone=UTC&characterEncoding=utf8
+      url: jdbc:mysql://localhost:3306/springboot-vue?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false&serverTimezone=GMT%2b8
       username: root
       password: 123456
       driver-class-name: com.mysql.cj.jdbc.Driver

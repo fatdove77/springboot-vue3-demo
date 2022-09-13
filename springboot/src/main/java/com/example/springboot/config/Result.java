@@ -25,7 +25,7 @@ public class Result<T> {
         return result;
     }
 
-    public static <T> Result<T> success(T data){
+    public static <T> Result<T> success(T data){  //当作是固定用法吧
         Result<T> result =new Result<>(data);
         result.setCode("0");
         result.setMsg("成功");

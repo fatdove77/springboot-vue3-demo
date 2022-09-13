@@ -9,11 +9,11 @@ import lombok.Data;
 @TableName("user")
 @Data
 public class User {
-    @TableId(value = "id",type = IdType.AUTO)
+    @TableId(type = IdType.AUTO)
     private  Integer id;
     private  String username;
     private  String password;
-    private  String nickname;
+    private  String nickName;
     private  Integer age;
     private  String sex;
     private  String address;
